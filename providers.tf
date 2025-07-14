@@ -8,5 +8,6 @@ terraform {
 }
 
 provider "aws" {
-  # Configuration options
+  region = "us-east-2"
+  profile = "paulo-lemos-defensoria"
 }
